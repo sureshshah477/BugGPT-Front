@@ -23,7 +23,7 @@ function App() {
   
 
   async function reviewCode() {
-    const response = await axios.post('http://localhost:3000/ai/get-review', { code })
+    const response = await axios.post('https://buggpt.onrender.com/ai/get-review', { code })
     setReview(response.data)
   }
   //https://fqrdzptx-5173.inc1.devtunnels.ms/https://fqrdzptx-3000.inc1.devtunnels.ms/
