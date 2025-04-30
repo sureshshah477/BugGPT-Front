@@ -43,4 +43,24 @@ No need to select a language — just paste your code, click **Review**, and get
 
 ---
 
+---
+
+## 🚀 Local Setup Instructions
+
+> Make sure Node.js and npm are installed.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/BugGPT.git
+cd BugGPT
+cd backend
+npm install
+# Add your GEMINI_API_KEY in a .env file
+npm start
+cd frontend
+npm install
+npm run dev
+
+
 
